@@ -4,17 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && node ./build/consumer.js",
+    "cs" : "tsc && node ./build/consumer.js",
+    "pd" : "tsc && node ./build/producer.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ip": "^1.1.5",
     "kafkajs": "^1.12.0",
     "typescript": "^3.8.2"
   },
   "devDependencies": {
-    "@types/node": "^13.7.4",
-    "@types/ip": "^1.1.0"
+    "@types/node": "^13.7.4"
   }
 }

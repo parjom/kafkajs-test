@@ -1,5 +1,4 @@
 import fs = require('fs');
-import ip =  require('ip');
 
 import { Kafka, logLevel } from 'kafkajs';
 

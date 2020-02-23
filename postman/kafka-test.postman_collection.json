@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "39874ad9-5da4-48c1-9079-41519af2590e",
+		"name": "kafka-test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "테스트",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "text/plain",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "신기방기",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://172.16.36.171:31100/?sdcApplicationId=test",
+					"protocol": "http",
+					"host": [
+						"172",
+						"16",
+						"36",
+						"171"
+					],
+					"port": "31100",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "sdcApplicationId",
+							"value": "test"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
